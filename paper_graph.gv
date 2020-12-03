@@ -1,0 +1,52 @@
+digraph ML_Math{           //设置分辨率
+	//graph[bgcolor="cadetblue"];
+	{
+		node[shape=plaintext]
+		//"2013"->"2014"->"2015"->"2016"->"2017";
+	}
+	{
+		node[shape=plaintext]
+		//2013
+		a2013[label="Playing Atari with Deep Reinforcement Learning"];
+		//2015
+		a2015[label="Deep Reinforcement Learning with Double Q-learning"]
+		//2016
+		a2016[label="Prioritized Experience Replay"]
+		b2016[label="Dueling Network Architectures for Deep Reinforcement Learning"]
+		c2016[label="Asynchronous Methods for Deep Reinforcement Learning"]
+		//2017
+		a2017[label="Deep Recurrent Q-Learning for Partially Observable MDPs"]
+		b2017[label="Rainbow: Combining Improvements in Deep Reinforcement Learning"]
+		c2017[label="Trust Region Policy Optimization"]
+		d2017[label="Emergence of Locomotion Behaviours in Rich Environments"]
+	}
+	/*{
+		{rank=same;"2013";a2013}
+		{rank=same;"2014";}
+		{rank=same;"2015";a2015;}
+		{rank=same;"2016";a2016;b2016}
+		{rank=same;"2017";a2017;b2017;c2017;d2017}
+	}*/
+
+	{
+		edge[color=darkgreen]
+		a2013->a2015;
+		a2013->a2016;
+		a2013->b2016;
+		a2013->a2017;
+		a2013->b2017;
+		c2016->c2017;
+		c2017->d2017;
+	}
+	subgraph cluster_dqn{
+		label="DQN"
+		node [shape = box, color = blue]
+		a2013; a2015; a2016; b2016; b2017;a2017;
+	}
+	subgraph cluster_pg{
+		label="Policy Gradient"
+		node [shape = box, color = blue]
+		c2016;d2017;c2017;
+	}
+	
+}

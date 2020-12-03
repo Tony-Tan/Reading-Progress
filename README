@@ -1,3 +1,17 @@
 ## Reading Progress
 
-|Start Date|Paper Name| |
+|Start Reading Date|Algorithm Name|Paper Name|Abstraction and Conclusion |Related works| Algorthim| Mathmetics|Experiments|Discussion|Code|
+|:---:|:---:|:------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Aug 26,2020|DQN|Playing Atari with Deep Reinforcement Learning|Done|Done|Done|Done|Done|Done|Done|
+|Aug 27,2020|DQN|Human-level control through deep reinforcement learning|Done|Done|Done|Done|Done|Done|Done|
+|Oct 12,2020|Double DQN|Deep Reinforcement Learning with Double Q-learning|Done|Done|Done|Done|Done|Done|Done|
+|Oct 15,2020|PER|Prioritized Experience Replay|Done|Done|Done|Done|Done|Done|Done|
+|Oct 22,2020|Dueling DQN|Dueling Network Architectures for Deep Reinforcement Learning|Done|Done|Done|Done|Done|Done|Done|
+|Oct 22,2020|Rainbow DQN|Rainbow: Combining Improvements in Deep Reinforcement Learning|Done|Done|Done|Done|Done|Done||
+|Oct 28,2020|Deep Recurrent Q-Learning|Deep Recurrent Q-Learning for Partially Observable MDPs|Done|||||||
+|Nov 3,2020|A3C|Asynchronous Methods for Deep Reinforcement Learning|Done|Done|Done|Done|Done|||
+|Nov 7,2020|TRPO|Trust Region Policy Optimization|Done|Done|Done|Done|Done|||
+|Dec 2,2020|GAE|Emergence of Locomotion Behaviours in Rich Environments|Done|||||||
+
+## graph of papers
+![](./graph.svg)
