@@ -1,11 +1,13 @@
 digraph ML_Math{           //设置分辨率
 	//graph[bgcolor="cadetblue"];
 	{
-		node[shape=plaintext]
+		//node[shape=plaintext]
 		//"2013"->"2014"->"2015"->"2016"->"2017";
 	}
 	{
-		node[shape=plaintext]
+		node[shape=box]
+		//1993
+		a1993[label="Reinforcement Learning for Robots Using Neural Networks"];
 		//2013
 		a2013[label="Playing Atari with Deep Reinforcement Learning"];
 		//2015
@@ -29,7 +31,8 @@ digraph ML_Math{           //设置分辨率
 	}*/
 
 	{
-		edge[color=darkgreen]
+		edge[color=darkgreen,style=dashed]
+		a1993->a2013[label="experience replay mechanism"];
 		a2013->a2015;
 		a2013->a2016;
 		a2013->b2016;
@@ -37,14 +40,17 @@ digraph ML_Math{           //设置分辨率
 		a2013->b2017;
 		c2016->c2017;
 		c2017->d2017;
+		a2013->c2016;
 	}
 	subgraph cluster_dqn{
 		label="DQN"
+		style="dashed"
 		node [shape = box, color = blue]
 		a2013; a2015; a2016; b2016; b2017;a2017;
 	}
 	subgraph cluster_pg{
 		label="Policy Gradient"
+		style="dashed"
 		node [shape = box, color = blue]
 		c2016;d2017;c2017;
 	}
