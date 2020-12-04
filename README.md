@@ -13,6 +13,7 @@
 |Nov 3,2020|A3C|Asynchronous Methods for Deep Reinforcement Learning|Done|Done|Done|Done|Done||||
 |Nov 7,2020|TRPO|Trust Region Policy Optimization|Done|Done|Done|Done|Done||||
 |Dec 2,2020|GAE|Emergence of Locomotion Behaviours in Rich Environments|Done||||||||
-
+|Dec 3,2020|PPO|Proximal Policy Optimization Algorithms|Done||||||||
+|Dec 4,2020|PG|Policy Gradient Methods for Reinforcement Learning with Function Approximation|Done|Done||||Done|Done||
 ## graph of papers
 ![](./graph.svg)
