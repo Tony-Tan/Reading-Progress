@@ -7,6 +7,8 @@ digraph ML_Math{           //设置分辨率
 		a1993[label="[1993] Reinforcement Learning for Robots Using Neural Networks"];
 		//1999
 		a1999[label="[1999] Policy Gradient Methods for Reinforcement Learning with Function Approximation"]
+		//2001
+		a2001[label="[2001]A Natural Policy Gradient"]
 		//2013
 		a2013[label="[2013] Playing Atari with Deep Reinforcement Learning"];
 		//2015
@@ -39,6 +41,8 @@ digraph ML_Math{           //设置分辨率
 		a1999->e2017;
 		a1999->c2017;
 		e2017->d2017;
+		a2001->c2017;
+		a1999->a2001;
 	}
 	subgraph cluster_dqn{
 		label="DQN"
@@ -50,7 +54,7 @@ digraph ML_Math{           //设置分辨率
 		label="Policy Gradient"
 		style="dashed"
 		node [shape = box, color = blue]
-		c2016;d2017;c2017;e2017;a1999;
+		c2016;d2017;c2017;e2017;a1999;a2001;
 	}
 	
 }

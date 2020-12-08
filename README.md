@@ -14,6 +14,9 @@
 |Nov 7,2020|TRPO|Trust Region Policy Optimization|Done|Done|Done|Done|Done||||
 |Dec 2,2020|GAE|Emergence of Locomotion Behaviours in Rich Environments|Done||||||||
 |Dec 3,2020|PPO|Proximal Policy Optimization Algorithms|Done||||||||
-|Dec 4,2020|PG|Policy Gradient Methods for Reinforcement Learning with Function Approximation|Done|Done||||Done|Done||
+|Dec 4,2020|PG|Policy Gradient Methods for Reinforcement Learning with Function Approximation|Done|Done|Done|Done|Done|Done|||
+|Dec 7,2020||A Natural Policy Gradient|Done||||||||
+|Dec 8,2020|REINFORCE|Simple statistical gradient-following algorithms for connectionist reinforcement learning|Done||||||||
+
 ## graph of papers
 ![](./graph.svg)
