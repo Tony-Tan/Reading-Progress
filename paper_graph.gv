@@ -5,6 +5,8 @@ digraph ML_Math{           //设置分辨率
 		
 		//1993
 		a1993[label="[1993] Reinforcement Learning for Robots Using Neural Networks"];
+		//1994
+		a1994[label="[1994]Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems"]
 		//1995
 		a1995[label="[1995] Simple statistical gradient-following algorithms for connectionist reinforcement learning"]
 		//1999
@@ -46,6 +48,7 @@ digraph ML_Math{           //设置分辨率
 		a2001->c2017;
 		a1999->a2001;
 		a1995->a1999;
+		a1994->a1999;
 	}
 	subgraph cluster_dqn{
 		label="DQN"
@@ -57,7 +60,7 @@ digraph ML_Math{           //设置分辨率
 		label="Policy Gradient"
 		style="dashed"
 		node [shape = box, color = blue]
-		c2016;d2017;c2017;e2017;a1999;a2001;a1995;
+		c2016;d2017;c2017;e2017;a1999;a2001;a1995;a1994;
 	}
 	
 }

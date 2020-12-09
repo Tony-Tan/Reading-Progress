@@ -17,6 +17,6 @@
 |Dec 4,2020|PG|Policy Gradient Methods for Reinforcement Learning with Function Approximation|Done|Done|Done|Done|Done|Done|||
 |Dec 7,2020||A Natural Policy Gradient|Done||||||||
 |Dec 8,2020|REINFORCE|Simple statistical gradient-following algorithms for connectionist reinforcement learning|Done||||||||
-
+|Dec 9,2020||Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems|Done||||||||
 ## graph of papers
 ![](./graph.svg)
