@@ -18,5 +18,7 @@
 |Dec 7,2020||A Natural Policy Gradient|Done||||||||
 |Dec 8,2020|REINFORCE|Simple statistical gradient-following algorithms for connectionist reinforcement learning|Done||||||||
 |Dec 9,2020||Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems|Done||||||||
+|Dec 10,2020|ACER|Sample Efficient Actor-Critic with Experience Replay|Done||||||||
+
 ## graph of papers
 ![](./graph.svg)

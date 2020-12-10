@@ -47,14 +47,14 @@
 <!-- a1999 -->
 <g id="node4" class="node">
 <title>a1999</title>
-<polygon fill="none" stroke="black" points="2817,-344 2295,-344 2295,-308 2817,-308 2817,-344"/>
-<text text-anchor="middle" x="2556" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">[1999] Policy Gradient Methods for Reinforcement Learning with Function Approximation</text>
+<polygon fill="none" stroke="black" points="2818,-344 2296,-344 2296,-308 2818,-308 2818,-344"/>
+<text text-anchor="middle" x="2557" y="-322.3" font-family="Times New Roman,serif" font-size="14.00">[1999] Policy Gradient Methods for Reinforcement Learning with Function Approximation</text>
 </g>
 <!-- a1994&#45;&gt;a1999 -->
 <g id="edge17" class="edge">
 <title>a1994&#45;&gt;a1999</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2732.26,-415.97C2696.09,-397.71 2638.55,-368.67 2599.12,-348.76"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2600.51,-345.55 2590,-344.16 2597.35,-351.79 2600.51,-345.55"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2732.42,-415.97C2696.42,-397.71 2639.16,-368.67 2599.91,-348.76"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2601.34,-345.57 2590.84,-344.16 2598.18,-351.81 2601.34,-345.57"/>
 </g>
 <!-- a1995 -->
 <g id="node3" class="node">
@@ -65,50 +65,50 @@
 <!-- a1995&#45;&gt;a1999 -->
 <g id="edge16" class="edge">
 <title>a1995&#45;&gt;a1999</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2264.75,-415.97C2326.25,-397.18 2425.13,-366.98 2490.33,-347.06"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2491.56,-350.35 2500.1,-344.08 2489.51,-343.65 2491.56,-350.35"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2264.91,-415.97C2326.59,-397.18 2425.75,-366.98 2491.14,-347.06"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2492.39,-350.34 2500.94,-344.08 2490.35,-343.64 2492.39,-350.34"/>
 </g>
 <!-- a2001 -->
 <g id="node5" class="node">
 <title>a2001</title>
-<polygon fill="none" stroke="black" points="2536.5,-271 2339.5,-271 2339.5,-235 2536.5,-235 2536.5,-271"/>
-<text text-anchor="middle" x="2438" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">[2001]A Natural Policy Gradient</text>
+<polygon fill="none" stroke="black" points="2537.5,-271 2340.5,-271 2340.5,-235 2537.5,-235 2537.5,-271"/>
+<text text-anchor="middle" x="2439" y="-249.3" font-family="Times New Roman,serif" font-size="14.00">[2001]A Natural Policy Gradient</text>
 </g>
 <!-- a1999&#45;&gt;a2001 -->
 <g id="edge15" class="edge">
 <title>a1999&#45;&gt;a2001</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2527.74,-307.99C2511.94,-298.49 2492.07,-286.54 2475.05,-276.29"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2476.82,-273.27 2466.44,-271.11 2473.21,-279.27 2476.82,-273.27"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2528.74,-307.99C2512.94,-298.49 2493.07,-286.54 2476.05,-276.29"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2477.82,-273.27 2467.44,-271.11 2474.21,-279.27 2477.82,-273.27"/>
 </g>
 <!-- c2017 -->
 <g id="node13" class="node">
 <title>c2017</title>
-<polygon fill="none" stroke="black" points="2558,-198 2314,-198 2314,-162 2558,-162 2558,-198"/>
-<text text-anchor="middle" x="2436" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">[2017] Trust Region Policy Optimization</text>
+<polygon fill="none" stroke="black" points="2561,-198 2317,-198 2317,-162 2561,-162 2561,-198"/>
+<text text-anchor="middle" x="2439" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">[2017] Trust Region Policy Optimization</text>
 </g>
 <!-- a1999&#45;&gt;c2017 -->
 <g id="edge12" class="edge">
 <title>a1999&#45;&gt;c2017</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2559.14,-307.9C2562.01,-286.74 2563.52,-250.63 2546,-227 2538.46,-216.83 2528.24,-208.9 2517.06,-202.71"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2518.43,-199.48 2507.92,-198.11 2515.28,-205.73 2518.43,-199.48"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2560.11,-307.92C2562.96,-286.78 2564.45,-250.68 2547,-227 2539.51,-216.84 2529.33,-208.9 2518.18,-202.7"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2519.58,-199.49 2509.08,-198.1 2516.42,-205.73 2519.58,-199.49"/>
 </g>
 <!-- e2017 -->
 <g id="node15" class="node">
 <title>e2017</title>
-<polygon fill="none" stroke="black" points="2719.5,-125 2434.5,-125 2434.5,-89 2719.5,-89 2719.5,-125"/>
-<text text-anchor="middle" x="2577" y="-103.3" font-family="Times New Roman,serif" font-size="14.00">[2017] Proximal Policy Optimization Algorithms</text>
+<polygon fill="none" stroke="black" points="2722.5,-125 2437.5,-125 2437.5,-89 2722.5,-89 2722.5,-125"/>
+<text text-anchor="middle" x="2580" y="-103.3" font-family="Times New Roman,serif" font-size="14.00">[2017] Proximal Policy Optimization Algorithms</text>
 </g>
 <!-- a1999&#45;&gt;e2017 -->
 <g id="edge11" class="edge">
 <title>a1999&#45;&gt;e2017</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2561.13,-307.69C2562.61,-302.09 2564.07,-295.82 2565,-290 2573.71,-235.59 2576.12,-171.07 2576.78,-135.31"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2580.28,-135.23 2576.93,-125.18 2573.28,-135.13 2580.28,-135.23"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2562.09,-307.68C2563.57,-302.08 2565.04,-295.82 2566,-290 2575.02,-235.6 2578.24,-171.07 2579.39,-135.31"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2582.89,-135.28 2579.68,-125.18 2575.89,-135.08 2582.89,-135.28"/>
 </g>
 <!-- a2001&#45;&gt;c2017 -->
 <g id="edge14" class="edge">
 <title>a2001&#45;&gt;c2017</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2437.52,-234.81C2437.29,-226.79 2437.02,-217.05 2436.76,-208.07"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2440.26,-207.93 2436.48,-198.03 2433.26,-208.12 2440.26,-207.93"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2439,-234.81C2439,-226.79 2439,-217.05 2439,-208.07"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2442.5,-208.03 2439,-198.03 2435.5,-208.03 2442.5,-208.03"/>
 </g>
 <!-- a2015 -->
 <g id="node7" class="node">
@@ -185,32 +185,44 @@
 <!-- c2016&#45;&gt;c2017 -->
 <g id="edge7" class="edge">
 <title>c2016&#45;&gt;c2017</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2203.29,-234.99C2248.28,-224.56 2306.01,-211.16 2352.72,-200.32"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2353.56,-203.72 2362.51,-198.05 2351.98,-196.9 2353.56,-203.72"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2204.01,-234.99C2249.44,-224.56 2307.74,-211.16 2354.9,-200.32"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2355.83,-203.7 2364.79,-198.05 2354.26,-196.88 2355.83,-203.7"/>
+</g>
+<!-- f2017 -->
+<g id="node16" class="node">
+<title>f2017</title>
+<polygon fill="none" stroke="black" points="2299,-198 1945,-198 1945,-162 2299,-162 2299,-198"/>
+<text text-anchor="middle" x="2122" y="-176.3" font-family="Times New Roman,serif" font-size="14.00">[2017] Sample Efficient Actor&#45;Critic with Experience Replay</text>
+</g>
+<!-- c2016&#45;&gt;f2017 -->
+<g id="edge18" class="edge">
+<title>c2016&#45;&gt;f2017</title>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2128.06,-234.81C2127.16,-226.79 2126.06,-217.05 2125.05,-208.07"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2128.52,-207.57 2123.92,-198.03 2121.56,-208.36 2128.52,-207.57"/>
 </g>
 <!-- d2017 -->
 <g id="node14" class="node">
 <title>d2017</title>
-<polygon fill="none" stroke="black" points="2655,-52 2259,-52 2259,-16 2655,-16 2655,-52"/>
-<text text-anchor="middle" x="2457" y="-30.3" font-family="Times New Roman,serif" font-size="14.00">[2017] Emergence of Locomotion Behaviours in Rich Environments</text>
+<polygon fill="none" stroke="black" points="2658,-52 2262,-52 2262,-16 2658,-16 2658,-52"/>
+<text text-anchor="middle" x="2460" y="-30.3" font-family="Times New Roman,serif" font-size="14.00">[2017] Emergence of Locomotion Behaviours in Rich Environments</text>
 </g>
 <!-- c2017&#45;&gt;d2017 -->
 <g id="edge8" class="edge">
 <title>c2017&#45;&gt;d2017</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2430.39,-161.8C2425.26,-143.48 2419.4,-113.76 2426,-89 2428.58,-79.34 2433.34,-69.6 2438.37,-61.11"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2441.47,-62.77 2443.85,-52.45 2435.55,-59.03 2441.47,-62.77"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2433.39,-161.8C2428.26,-143.48 2422.4,-113.76 2429,-89 2431.58,-79.34 2436.34,-69.6 2441.37,-61.11"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2444.47,-62.77 2446.85,-52.45 2438.55,-59.03 2444.47,-62.77"/>
 </g>
 <!-- c2017&#45;&gt;e2017 -->
 <g id="edge9" class="edge">
 <title>c2017&#45;&gt;e2017</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2469.77,-161.99C2488.99,-152.32 2513.26,-140.1 2533.85,-129.73"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2535.66,-132.74 2543.01,-125.11 2532.51,-126.49 2535.66,-132.74"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2472.77,-161.99C2491.99,-152.32 2516.26,-140.1 2536.85,-129.73"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2538.66,-132.74 2546.01,-125.11 2535.51,-126.49 2538.66,-132.74"/>
 </g>
 <!-- e2017&#45;&gt;d2017 -->
 <g id="edge13" class="edge">
 <title>e2017&#45;&gt;d2017</title>
-<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2548.26,-88.99C2532.2,-79.49 2511.99,-67.54 2494.68,-57.29"/>
-<polygon fill="darkgreen" stroke="darkgreen" points="2496.31,-54.19 2485.92,-52.11 2492.75,-60.22 2496.31,-54.19"/>
+<path fill="none" stroke="darkgreen" stroke-dasharray="5,2" d="M2551.26,-88.99C2535.2,-79.49 2514.99,-67.54 2497.68,-57.29"/>
+<polygon fill="darkgreen" stroke="darkgreen" points="2499.31,-54.19 2488.92,-52.11 2495.75,-60.22 2499.31,-54.19"/>
 </g>
 </g>
 </svg>
