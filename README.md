@@ -1,7 +1,7 @@
 ## Reading Progress
 
 |Date|Acronym|<span style="white-space:nowrap;">&emsp;&emsp;&emsp;&emsp;&emsp;Title&emsp;&emsp;&emsp;&emsp;&emsp;</span>|Abstraction and Conclusion|Introduction and Related works|Algorthim|Mathmetics|Experiments|Discussion|Code|Others|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Aug 26,2020|DQN|Playing Atari with Deep Reinforcement Learning|Done|Done|Done|Done|Done|Done|Done||
 |Aug 27,2020|DQN|Human-level control through deep reinforcement learning|Done|Done|Done|Done|Done|Done|Done||
 |Aug 29,2020||Reinforcement Learning for Robots Using Neural Networks||||||||chaper3|
