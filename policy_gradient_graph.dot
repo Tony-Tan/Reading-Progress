@@ -37,7 +37,7 @@ digraph ML_Math{           //设置分辨率
 	subgraph cluster_pg{
 		label="Policy Gradient"
 		style="dashed"
-		node [shape = box, color = blue]
+		
 		c2016;d2017;c2017;e2017;a1999;a2001;a1992;a1994;f2017;a2002;
 	}
 	
