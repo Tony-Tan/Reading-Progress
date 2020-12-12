@@ -21,5 +21,8 @@
 |Dec 9,2020||Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems|Done||||||||
 |Dec 10,2020|ACER|Sample Efficient Actor-Critic with Experience Replay|Done||||||||
 
-## graph of papers
-![](./graph.svg)
+## graph of DQN papers
+![](./DQN_graph.svg)
+
+## graph of PG papers
+![](./PG_graph.svg)
