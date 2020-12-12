@@ -1,0 +1,32 @@
+digraph ML_Math{           //设置分辨率
+	{
+		node[shape=box]
+		//1993
+		a1993[label="[1993] Reinforcement Learning for Robots Using Neural Networks"];
+		a2013[label="[2013] Playing Atari with Deep Reinforcement Learning"];
+		//2015
+		a2015[label="[2015] Deep Reinforcement Learning with Double Q-learning"]
+		//2016
+		a2016[label="[2016] Prioritized Experience Replay"]
+		b2016[label="[2016] Dueling Network Architectures for Deep Reinforcement Learning"]
+		//2017
+		a2017[label="[2017] Deep Recurrent Q-Learning for Partially Observable MDPs"]
+		b2017[label="[2017] Rainbow: Combining Improvements in Deep Reinforcement Learning"]
+	}
+	{
+		edge[color=darkgreen,style=dashed]
+		a1993->a2013[label="experience replay mechanism"];
+		a2013->a2015;
+		a2013->a2016;
+		a2013->b2016;
+		a2013->a2017;
+		a2013->b2017;		
+	}
+	subgraph cluster_dqn{
+		label="DQN"
+		style="dashed"
+		node [shape = box, color = blue]
+		a2013; a2015; a2016; b2016; b2017;a2017;
+	}
+	
+}

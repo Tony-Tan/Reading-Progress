@@ -1,0 +1,44 @@
+digraph ML_Math{           //设置分辨率
+	{
+		node[shape=box]
+		//1992
+		a1992[label="[1992] REINFORCE"]
+		//1993
+		//1994
+		a1994[label="[1994] Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems"]
+		//1995
+		//1999
+		a1999[label="[1999] Policy Gradient Methods for Reinforcement Learning with Function Approximation"]
+		//2001
+		a2001[label="[2001] A Natural Policy Gradient"]
+		//2002
+		a2002[label="[2002] Approximately optimal approximate reinforcement learning"]
+		//2013
+		//2015
+		//2016
+		c2016[label="[2016] A3C"]
+		//2017
+		c2017[label="[2017] TRPO"]
+		d2017[label="[2017] PPO-Penalty"]
+		e2017[label="[2017] PPO"]
+		f2017[label="[2017] ACER"]
+	}
+	{
+		edge[color=darkgreen]
+		c2017->e2017
+		a1999->c2017;
+		e2017->d2017;
+		a1999->a2001;
+		a1992->a1999;
+		a1994->a1999;
+		c2017->f2017;
+		a2002->c2017;
+	}
+	subgraph cluster_pg{
+		label="Policy Gradient"
+		style="dashed"
+		node [shape = box, color = blue]
+		c2016;d2017;c2017;e2017;a1999;a2001;a1992;a1994;f2017;a2002;
+	}
+	
+}
