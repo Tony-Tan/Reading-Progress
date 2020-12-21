@@ -1,47 +1,54 @@
-digraph ML_Math{           //设置分辨率
+digraph ML_Math{     
+	    
+	{
+		node[shape=plaintext]
+		"1988"->"1992"->"1994"->"1999"->"2001"->"2002"->"2016"->"2017";
+	}
+	//设置分辨率
 	{
 		node[shape=box]
 		//1988
-		a1988[label="[1988] On the Use of Backpropagation in Associative Reinforcement Learning"]
+		a1988[label="On the Use of Backpropagation in Associative Reinforcement Learning"]
 		//1992
-		a1992[label="[1992] REINFORCE"]
-		//1993
+		a1992[label="REINFORCE"]
+		
 		//1994
-		a1994[label="[1994] Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems"]
-		//1995
+		a1994[label="Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems"]
 		//1999
-		a1999[label="[1999] Policy Gradient Methods for Reinforcement Learning with Function Approximation"]
+		a1999[label="Policy Gradient Methods for Reinforcement Learning with Function Approximation"]
 		//2001
-		a2001[label="[2001] A Natural Policy Gradient"]
+		a2001[label="A Natural Policy Gradient"]
 		//2002
-		a2002[label="[2002] Approximately optimal approximate reinforcement learning"]
-		//2013
-		//2015
+		a2002[label="Approximately optimal approximate reinforcement learning"]
 		//2016
-		c2016[label="[2016] A3C"]
+		a2016[label="A3C"]
 		//2017
-		c2017[label="[2017] TRPO"]
-		d2017[label="[2017] PPO-Penalty"]
-		e2017[label="[2017] PPO"]
-		f2017[label="[2017] ACER"]
+		c2017[label="TRPO"]
+		d2017[label="PPO-Penalty"]
+		a2017[label="PPO"]
+		b2017[label="ACER"]
 	}
 	{
 		edge[color=darkgreen]
-		c2017->e2017
+		c2017->a2017
 		a1999->c2017;
-		e2017->d2017;
+		a2017->d2017;
 		a1999->a2001;
 		a1992->a1999;
 		a1994->a1999;
-		c2017->f2017;
+		c2017->b2017;
 		a2002->c2017;
 		a1988->a1992
 	}
-	subgraph cluster_pg{
-		label="Policy Gradient"
-		style="dashed"
-		
-		c2016;d2017;c2017;e2017;a1999;a2001;a1992;a1994;f2017;a2002;a1988;
+	{
+		{rank=same;"1988";a1988;}
+		{rank=same;"1992";a1992;}
+		{rank=same;"1994";a1994;}
+		{rank=same;"1999";a1999;}
+		{rank=same;"2001";a2001;}
+		{rank=same;"2002";a2002;}
+		{rank=same;"2016";a2016;}
+		{rank=same;"2017";a2017;b2017;c2017;d2017}
 	}
 	
 }
