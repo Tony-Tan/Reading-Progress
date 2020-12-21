@@ -22,7 +22,7 @@
 <!-- 1988&#45;&gt;1992 -->
 <g id="edge1" class="edge">
 <title>1988&#45;&gt;1992</title>
-<path fill="none" stroke="black" d="M27,-503.7C27,-495.98 27,-486.71 27,-478.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27,-503.7C27,-495.98 27,-486.71 27,-478.11"/>
 <polygon fill="black" stroke="black" points="30.5,-478.1 27,-468.1 23.5,-478.1 30.5,-478.1"/>
 </g>
 <!-- 1994 -->
@@ -33,7 +33,7 @@
 <!-- 1992&#45;&gt;1994 -->
 <g id="edge2" class="edge">
 <title>1992&#45;&gt;1994</title>
-<path fill="none" stroke="black" d="M27,-431.7C27,-423.98 27,-414.71 27,-406.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27,-431.7C27,-423.98 27,-414.71 27,-406.11"/>
 <polygon fill="black" stroke="black" points="30.5,-406.1 27,-396.1 23.5,-406.1 30.5,-406.1"/>
 </g>
 <!-- 1999 -->
@@ -44,7 +44,7 @@
 <!-- 1994&#45;&gt;1999 -->
 <g id="edge3" class="edge">
 <title>1994&#45;&gt;1999</title>
-<path fill="none" stroke="black" d="M27,-359.7C27,-351.98 27,-342.71 27,-334.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27,-359.7C27,-351.98 27,-342.71 27,-334.11"/>
 <polygon fill="black" stroke="black" points="30.5,-334.1 27,-324.1 23.5,-334.1 30.5,-334.1"/>
 </g>
 <!-- 2001 -->
@@ -55,7 +55,7 @@
 <!-- 1999&#45;&gt;2001 -->
 <g id="edge4" class="edge">
 <title>1999&#45;&gt;2001</title>
-<path fill="none" stroke="black" d="M27,-287.7C27,-279.98 27,-270.71 27,-262.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27,-287.7C27,-279.98 27,-270.71 27,-262.11"/>
 <polygon fill="black" stroke="black" points="30.5,-262.1 27,-252.1 23.5,-262.1 30.5,-262.1"/>
 </g>
 <!-- 2002 -->
@@ -66,7 +66,7 @@
 <!-- 2001&#45;&gt;2002 -->
 <g id="edge5" class="edge">
 <title>2001&#45;&gt;2002</title>
-<path fill="none" stroke="black" d="M27,-215.7C27,-207.98 27,-198.71 27,-190.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27,-215.7C27,-207.98 27,-198.71 27,-190.11"/>
 <polygon fill="black" stroke="black" points="30.5,-190.1 27,-180.1 23.5,-190.1 30.5,-190.1"/>
 </g>
 <!-- 2016 -->
@@ -77,7 +77,7 @@
 <!-- 2002&#45;&gt;2016 -->
 <g id="edge6" class="edge">
 <title>2002&#45;&gt;2016</title>
-<path fill="none" stroke="black" d="M27,-143.7C27,-135.98 27,-126.71 27,-118.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27,-143.7C27,-135.98 27,-126.71 27,-118.11"/>
 <polygon fill="black" stroke="black" points="30.5,-118.1 27,-108.1 23.5,-118.1 30.5,-118.1"/>
 </g>
 <!-- 2017 -->
@@ -88,7 +88,7 @@
 <!-- 2016&#45;&gt;2017 -->
 <g id="edge7" class="edge">
 <title>2016&#45;&gt;2017</title>
-<path fill="none" stroke="black" d="M27,-71.7C27,-63.98 27,-54.71 27,-46.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27,-71.7C27,-63.98 27,-54.71 27,-46.11"/>
 <polygon fill="black" stroke="black" points="30.5,-46.1 27,-36.1 23.5,-46.1 30.5,-46.1"/>
 </g>
 <!-- a1988 -->
