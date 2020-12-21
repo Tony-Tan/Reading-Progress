@@ -1,6 +1,8 @@
 digraph ML_Math{           //设置分辨率
 	{
 		node[shape=box]
+		//1988
+		a1988[label="[1988] On the Use of Backpropagation in Associative Reinforcement Learning"]
 		//1992
 		a1992[label="[1992] REINFORCE"]
 		//1993
@@ -33,12 +35,13 @@ digraph ML_Math{           //设置分辨率
 		a1994->a1999;
 		c2017->f2017;
 		a2002->c2017;
+		a1988->a1992
 	}
 	subgraph cluster_pg{
 		label="Policy Gradient"
 		style="dashed"
 		
-		c2016;d2017;c2017;e2017;a1999;a2001;a1992;a1994;f2017;a2002;
+		c2016;d2017;c2017;e2017;a1999;a2001;a1992;a1994;f2017;a2002;a1988;
 	}
 	
 }
