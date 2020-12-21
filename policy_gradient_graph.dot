@@ -2,6 +2,7 @@ digraph ML_Math{
 	    
 	{
 		node[shape=plaintext]
+		edge[style=dashed]
 		"1988"->"1992"->"1994"->"1999"->"2001"->"2002"->"2016"->"2017";
 	}
 	//设置分辨率
