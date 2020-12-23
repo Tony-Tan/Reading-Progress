@@ -1,5 +1,4 @@
 digraph ML_Math{     
-	    
 	{
 		node[shape=plaintext]
 		edge[style=dashed]
