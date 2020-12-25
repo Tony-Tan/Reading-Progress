@@ -21,6 +21,9 @@
 |Dec 9,2020||Reinforcement Learning Algorithm for Partially Observable Markov Decision Problems|Done||||||||
 |Dec 10,2020|ACER|Sample Efficient Actor-Critic with Experience Replay|Done||||||||
 |Dec 19,2020|REINFORCE|On the Use of Backpropagation in Associative Reinforcement Learning|Done|Done|Done|Done|Done|Done|||
+|Dec 25.2020||Bayesian Policy Gradient Algorithms|Done|||||Done|||
+
+
 
 ## graph of DQN papers
 ![](./DQN_graph.svg)

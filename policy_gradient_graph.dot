@@ -1,12 +1,12 @@
-digraph ML_Math{     
+digraph PG{     
 	{
 		node[shape=plaintext]
 		edge[style=dashed]
-		"1988"->"1992"->"1994"->"1999"->"2001"->"2002"->"2016"->"2017";
+		"1988"->"1992"->"1994"->"1999"->"2001"->"2002"->"2006"->"2016"->"2017";
 	}
 	//设置分辨率
 	{
-		node[shape=box]
+		node[shape=box,color=green]
 		//1988
 		a1988[label="On the Use of Backpropagation in Associative Reinforcement Learning"]
 		//1992
@@ -27,9 +27,16 @@ digraph ML_Math{
 		d2017[label="PPO-Penalty"]
 		a2017[label="PPO"]
 		b2017[label="ACER"]
+		
+	}
+	{
+		node[shape=box,color=blue]
+		//2006
+		bayesian_a_2006[label="Bayesian Policy Gradient Algorithms"]
 	}
 	{
 		edge[color=darkgreen]
+		// frequency
 		c2017->a2017
 		a1999->c2017;
 		a2017->d2017;
@@ -38,7 +45,10 @@ digraph ML_Math{
 		a1994->a1999;
 		c2017->b2017;
 		a2002->c2017;
-		a1988->a1992
+		a1988->a1992;
+
+		// bayesian 
+		a1992->bayesian_a_2006;
 	}
 	{
 		{rank=same;"1988";a1988;}
@@ -47,8 +57,16 @@ digraph ML_Math{
 		{rank=same;"1999";a1999;}
 		{rank=same;"2001";a2001;}
 		{rank=same;"2002";a2002;}
+		{rank=same;"2006";bayesian_a_2006;}
 		{rank=same;"2016";a2016;}
 		{rank=same;"2017";a2017;b2017;c2017;d2017}
 	}
+	/*
+	subgraph cluster_sub_space{
+		bgcolor="mintcream";
+		label="Matrix Subspace"
+		color=green;
+		a1992;a1994;a1999;a2001;a2002;a2016;a2017;b2017;c2017;d2017
+	}*/
 	
 }
