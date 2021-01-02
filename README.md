@@ -25,8 +25,8 @@
 
 
 
-## graph of DQN papers
+## [graph of DQN papers(click to raw svg file)](./DQN_graph.svg)
 ![](./DQN_graph.svg)
 
-## graph of PG papers
+## [graph of PG papers(click to raw svg file)](./PG_graph.svg)
 ![](./PG_graph.svg)
