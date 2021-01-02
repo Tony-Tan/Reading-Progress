@@ -45,13 +45,13 @@ digraph PG{
         b2013[label="Safe Policy Iteration"];
         c2013[label="Bayesian Supervised Dimensionality Reduction"]
         a2014[label="Deterministic Policy Gradient Algorithms"];
+        a2015[label="Trust Region Policy Optimization"];
         a2016[label="Model-Based Relative Entropy Stochastic Search"];
         b2016[label="Continuous Control with Deep Reinforcement Learning"];
         c2016[label="Asynchronous Methods for Deep Reinforcement Learning"];
         a2017[label="The Option-Critic Architecture"];
         b2017[label="Emergence of Locomotion Behaviours in Rich Environments"];
         c2017[label="Evolution Strategies as a Scalable Alternative to Reinforcement Learning"];
-        d2017[label="Trust Region Policy Optimization"];
         e2017[label="Proximal Policy Optimization Algorithms"];
         f2017[label="Sample Efficient Actor-Critic with Experience Replay"];
         a2018[label="Efficient Gradient-Free Variational Inference Using Policy Search"];
@@ -79,19 +79,19 @@ digraph PG{
     }
 
     {
-        a2002 -> d2017;
+        a2002 -> a2015;
         a1992 -> c2016;
         a1992 -> b1999;
         a2010 -> a2014;
         b2010 -> c2017;
         c2001 -> a2008;
-        b1999 -> d2017;
-        a1992 -> d2017;
+        b1999 -> a2015;
+        a1992 -> a2015;
         a1988 -> a1992;
-        d2017 -> f2017;
+        a2015 -> f2017;
         a1992 -> a2001;
         a1995 -> a2001;
-        d2017 -> e2017;
+        a2015 -> e2017;
         e2017 -> b2017;
         b1999 -> c2001;
         a1994 -> a2001;
@@ -110,13 +110,13 @@ digraph PG{
         i2018 -> k2018;
         a2017 -> j2018;
         a2019 -> c2020;
-        d2017 -> g2020;
-        d2017 -> e2020;
+        a2015 -> g2020;
+        a2015 -> e2020;
         c2001 -> a2020;
         a2020 -> d2020;
         a1992 -> f2018;
         b1998 -> l2018;
-        d2017 -> l2018;
+        a2015 -> l2018;
         b1999 -> e2018;
         c2001 -> d2018;
         b1999 -> g2018;
@@ -170,7 +170,7 @@ digraph PG{
         {rank=same;2013;a2013;b2013;c2013}
         {rank=same;2014;a2014}
         {rank=same;2016;a2016;b2016;c2016}
-        {rank=same;2017;a2017;b2017;c2017;d2017;e2017;f2017}
+        {rank=same;2017;a2017;b2017;c2017;a2015;e2017;f2017}
         {rank=same;2018;a2018;b2018;c2018;d2018;e2018;f2018;g2018;h2018;i2018;j2018;k2018;l2018}
         {rank=same;2019;a2019;b2019;c2019}
         {rank=same;2020;a2020;b2020;c2020;d2020;e2020;f2020;g2020}
